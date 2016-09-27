@@ -1,0 +1,13 @@
+/*---Helper---*/
+/*---componant---*/
+/*---layout---*/
+/* line 1, ../sass/layout/_layout.scss */
+p {
+  color: yellow;
+}
+
+/*---Pages---*/
+/* line 1, ../sass/pages/_home.scss */
+p {
+  color: red;
+}
