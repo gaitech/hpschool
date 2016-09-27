@@ -7,3 +7,11 @@ function HPSCHOOLS_add_parent_style() {
 
 // add action name, function name
 add_action( 'wp_enqueue_scripts', 'HPSCHOOLS_add_parent_style' );
+/**
+ * Proper way to enqueue scripts and styles
+ */
+function wpdocs_theme_name_scripts() {
+    wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/stylesheets/custom.css', array(), true);
+    wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri() . '/js/custom.js', array(), true );
+}
+add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
