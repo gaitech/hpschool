@@ -1,13 +1,8 @@
 /*---Helper---*/
 /*---componant---*/
 /*---layout---*/
-/* line 1, ../sass/layout/_layout.scss */
-p {
-  color: yellow;
-}
-
 /*---Pages---*/
-/* line 1, ../sass/pages/_home.scss */
-h3 {
+/* line 3, ../sass/pages/_home.scss */
+.footercredits.clearfix p {
   color: red !important;
 }

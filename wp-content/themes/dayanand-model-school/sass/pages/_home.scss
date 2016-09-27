@@ -1,3 +1,7 @@
-	h3 {
-		color: red !important;
+.footercredits {
+	&.clearfix {
+		p {
+			color: red !important;
+		}
 	}
+}
