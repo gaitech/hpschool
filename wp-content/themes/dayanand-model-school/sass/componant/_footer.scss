@@ -1,0 +1,25 @@
+//--- Header Area Css Using Sass ---//
+header {
+	&.banner {
+		&.headerclass {
+			background-color: #059EE2;
+		}
+	}
+}
+
+
+//--- Footer Area Css Using Sass ---//
+.footercredits {
+	&.clearfix {
+		a {
+			color: #2d5c88;
+		}
+		p {
+			color: #000;
+			font-size: 12px;
+			&:a {
+				color: #red;
+			}
+		}
+	}
+}
