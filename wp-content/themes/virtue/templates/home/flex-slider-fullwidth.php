@@ -43,7 +43,7 @@
                     ?>
                       <li> 
                         <?php if($slide['link'] != '') echo '<a href="'.esc_url($slide['link']).'" target="'.esc_attr($target).'">'; ?>
-                          <div class="kt-flex-fullslide" style="background-image:url(<?php echo esc_url($slide['kt_slide_01.jpg']); ?>); height:<?php echo esc_attr($slideheight);?>px;">
+                          <div class="kt-flex-fullslide" style="background-image:url(<?php echo esc_url($slide['url']); ?>); height:<?php echo esc_attr($slideheight);?>px;">
                               <?php if ($captions == '1') { ?> 
                                 <div class="flex-caption" style="height:<?php echo esc_attr($slideheight);?>px;">
                                   <div class="flex-caption-case" style="height:<?php echo esc_attr($slideheight);?>px;">

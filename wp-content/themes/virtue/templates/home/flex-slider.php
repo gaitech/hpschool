@@ -46,10 +46,7 @@
             <?php foreach ($slides as $slide) : 
                     if(!empty($slide['target']) && $slide['target'] == 1) {$target = '_blank';} else {$target = '_self';}
                     $image = aq_resize($slide['url'], $slidewidth, $slideheight, true);
-                    if(empty($image)) {$image = $slide['http://dpsshimla.org/MyImages/LOGO.png'];} ?>
-
-
-                    
+                    if(empty($image)) {$image = $slide['url'];} ?>
                       <li> 
                         <?php if($slide['link'] != '') echo '<a href="'.esc_url($slide['link']).'" target="'.esc_attr($target).'">'; ?>
                           <img src="<?php echo esc_url($image); ?>" width="<?php echo esc_attr($slidewidth);?>" height="<?php echo esc_attr($slideheight);?>" alt="<?php echo esc_attr($slide['title']); ?>" />
