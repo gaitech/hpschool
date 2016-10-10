@@ -1,7 +1,20 @@
-//--- Home Page Css Using Sass ---//
+//--- Home Sectiopn Css Using Sass ---//
 
 .piteminfo {
-	background-color: #f5f5f5;
+	@include mobile(320px,768px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
 }
-
-
+.piteminfo {
+	@include tablet(768px,1024px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
+}
+.piteminfo {
+	@include desktop(1024px,1920px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
+}

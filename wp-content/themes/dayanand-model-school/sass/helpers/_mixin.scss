@@ -1,0 +1,26 @@
+/* Helper for responsive */
+@mixin mobile($min-width,$max-width) {
+  @media all and (min-width:$min-width) and (max-width:$max-width) {
+    @content;
+  }  
+} 
+
+@mixin tablet($min-width,$max-width) {
+  @media all and (min-width:$min-width) and (max-width:$max-width) {
+    @content;
+  }  
+} 
+
+@mixin desktop($min-width,$max-width) {
+  @media all and (min-width:$min-width) and (max-width:$max-width) {
+    @content;
+  }  
+} 
+
+/* Mixin for Font Style */
+@mixin font($font-family,$font-size,$font-style,$font-weight) {
+	font-family: $font-family;
+	font-size: $font-size;
+	font-style: $font-style;
+  font-weight: $font-weight;
+}
