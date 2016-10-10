@@ -1,27 +1,119 @@
 /*---Helper---*/
+/* Helper for responsive */
+/* Mixin for Font Style */
 /*---componant---*/
-/* line 4, ../sass/componant/_footer.scss */
+/* line 5, ../sass/componant/_header.scss */
 header.banner.headerclass {
-  background-color: #059EE2;
+  background-color: #548641;
 }
 
-/* line 14, ../sass/componant/_footer.scss */
-.footercredits.clearfix a {
-  color: #2d5c88;
+/* line 12, ../sass/componant/_header.scss */
+#nav-main .sf-menu a {
+  font-size: 14px !important;
+  color: #fff;
 }
-/* line 17, ../sass/componant/_footer.scss */
-.footercredits.clearfix p {
-  color: #000;
-  font-size: 12px;
+/* line 15, ../sass/componant/_header.scss */
+#nav-main .sf-menu a:hover {
+  color: #000 !important;
+}
+
+/* line 2, ../sass/componant/_footer.scss */
+#containerfooter {
+  background: #548641;
+}
+
+/* line 7, ../sass/componant/_footer.scss */
+#containerfooter .container .textwidget {
+  color: #fff;
+  font-style: italic;
+}
+/* line 11, ../sass/componant/_footer.scss */
+#containerfooter .container p {
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+}
+/* line 16, ../sass/componant/_footer.scss */
+#containerfooter .container h3 {
+  color: #fff;
+  font-style: italic;
 }
 /* line 20, ../sass/componant/_footer.scss */
-.footercredits.clearfix p:a {
-  color: #red;
+#containerfooter .container a {
+  color: #fff;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* line 24, ../sass/componant/_footer.scss */
+#containerfooter .container a:hover {
+  color: #2d5c88;
 }
 
 /*---layout---*/
+/* line 2, ../sass/layout/_layout.scss */
+.entry-title {
+  color: #548641;
+}
+
+/* line 5, ../sass/layout/_layout.scss */
+.hometitle {
+  color: #548641;
+}
+
 /*---Pages---*/
 /* line 3, ../sass/pages/_home.scss */
 .piteminfo {
   background-color: #f5f5f5;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  /* line 3, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 9, ../sass/pages/_home.scss */
+.piteminfo {
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  /* line 9, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 15, ../sass/pages/_home.scss */
+.piteminfo {
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  /* line 15, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 4, ../sass/pages/_affiliation.scss */
+.school-affiliation .textwidget {
+  color: #548641;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 4, ../sass/pages/_contactus.scss */
+.contactformcase h3 {
+  color: #548641;
+}
+
+/* line 8, ../sass/pages/_contactus.scss */
+#submit {
+  background-color: #548641;
+}
+
+/* line 11, ../sass/pages/_contactus.scss */
+th {
+  color: #548641;
 }

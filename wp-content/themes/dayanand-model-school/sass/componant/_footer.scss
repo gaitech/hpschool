@@ -1,24 +1,28 @@
-//--- Header Area Css Using Sass ---//
-header {
-	&.banner {
-		&.headerclass {
-			background-color: #059EE2;
-		}
-	}
-}
-
-
 //--- Footer Area Css Using Sass ---//
-.footercredits {
-	&.clearfix {
-		a {
-			color: #2d5c88;
+#containerfooter {
+	background: $color-green;
+}
+#containerfooter {
+	.container {
+		.textwidget {
+			color: $color-white;
+			font-style: $font-style;
 		}
 		p {
-			color: #000;
-			font-size: 12px;
-			&:a {
-				color: #red;
+			color: $color-white;
+			font-size: $font-menu;
+			font-style: $font-style;
+		}
+		h3 {
+			color: $color-white;
+			font-style: $font-style;
+		}
+		a {
+			color: $color-white;
+			font-style: $font-style;
+			text-decoration: underline;
+			&:hover {
+				color: $hover-color;
 			}
 		}
 	}
