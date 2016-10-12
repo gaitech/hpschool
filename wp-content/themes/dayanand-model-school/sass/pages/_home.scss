@@ -18,3 +18,17 @@
 	}
 	background-color: $color-bg-caption;
 }
+
+.hometitle {
+	color:$color-green;
+}
+
+.siteorigin-widget-tinymce {
+	blockquote {
+		color: $color-green;
+	}
+
+	strong {
+		color: $color-green;
+	}
+}

@@ -17,34 +17,33 @@ header.banner.headerclass {
   color: #000 !important;
 }
 
-/* line 2, ../sass/componant/_footer.scss */
+/* line 3, ../sass/componant/_footer.scss */
 #containerfooter {
   background: #548641;
 }
-
-/* line 7, ../sass/componant/_footer.scss */
+/* line 6, ../sass/componant/_footer.scss */
 #containerfooter .container .textwidget {
   color: #fff;
   font-style: italic;
 }
-/* line 11, ../sass/componant/_footer.scss */
+/* line 10, ../sass/componant/_footer.scss */
 #containerfooter .container p {
   color: #fff;
   font-size: 14px;
   font-style: italic;
 }
-/* line 16, ../sass/componant/_footer.scss */
+/* line 15, ../sass/componant/_footer.scss */
 #containerfooter .container h3 {
   color: #fff;
   font-style: italic;
 }
-/* line 20, ../sass/componant/_footer.scss */
+/* line 19, ../sass/componant/_footer.scss */
 #containerfooter .container a {
   color: #fff;
   font-style: italic;
   text-decoration: underline;
 }
-/* line 24, ../sass/componant/_footer.scss */
+/* line 23, ../sass/componant/_footer.scss */
 #containerfooter .container a:hover {
   color: #2d5c88;
 }
@@ -56,8 +55,17 @@ header.banner.headerclass {
 }
 
 /* line 5, ../sass/layout/_layout.scss */
-.hometitle {
+.contentclass {
+  background: #fff;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  min-height: 320px;
+}
+
+/* line 11, ../sass/layout/_layout.scss */
+th {
   color: #548641;
+  padding: 10px;
 }
 
 /*---Pages---*/
@@ -94,6 +102,20 @@ header.banner.headerclass {
   }
 }
 
+/* line 22, ../sass/pages/_home.scss */
+.hometitle {
+  color: #548641;
+}
+
+/* line 27, ../sass/pages/_home.scss */
+.siteorigin-widget-tinymce blockquote {
+  color: #548641;
+}
+/* line 31, ../sass/pages/_home.scss */
+.siteorigin-widget-tinymce strong {
+  color: #548641;
+}
+
 /* line 4, ../sass/pages/_affiliation.scss */
 .school-affiliation .textwidget {
   color: #548641;
@@ -101,6 +123,11 @@ header.banner.headerclass {
   font-style: italic;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+/* line 12, ../sass/pages/_affiliation.scss */
+.widget-title {
+  color: #548641;
 }
 
 /* line 4, ../sass/pages/_contactus.scss */
@@ -113,7 +140,7 @@ header.banner.headerclass {
   background-color: #548641;
 }
 
-/* line 11, ../sass/pages/_contactus.scss */
-th {
-  color: #548641;
+/* line 4, ../sass/pages/_testimonials.scss */
+.main.col-md-12 {
+  min-height: 200px;
 }

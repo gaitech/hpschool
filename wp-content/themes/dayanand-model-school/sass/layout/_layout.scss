@@ -1,7 +1,14 @@
 //--- Comman Css For Every Page And Post Title ---//
 .entry-title {
-    color: $color-green;
+	color: $color-green;
 }
-.hometitle {
-	color:$color-green;
+.contentclass {
+	background: #fff;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	min-height: 320px;
+}
+th {
+	color: #548641;
+	padding: 10px;
 }

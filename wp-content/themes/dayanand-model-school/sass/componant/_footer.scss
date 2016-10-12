@@ -1,25 +1,24 @@
 //--- Footer Area Css Using Sass ---//
+
 #containerfooter {
 	background: $color-green;
-}
-#containerfooter {
 	.container {
 		.textwidget {
 			color: $color-white;
-			font-style: $font-style;
+			font-style: italic;
 		}
 		p {
 			color: $color-white;
 			font-size: $font-menu;
-			font-style: $font-style;
+			font-style: italic;
 		}
 		h3 {
 			color: $color-white;
-			font-style: $font-style;
+			font-style: italic;
 		}
 		a {
 			color: $color-white;
-			font-style: $font-style;
+			font-style: italic;
 			text-decoration: underline;
 			&:hover {
 				color: $hover-color;
