@@ -1,0 +1,16 @@
+/*---Helper---*/
+@import "helpers/mixin";
+@import "helpers/variables";
+
+/*---componant---*/
+@import "componant/header";
+@import "componant/footer";
+
+/*---layout---*/
+@import "layout/layout";
+
+/*---Pages---*/
+@import "pages/home";
+@import "pages/affiliation";
+@import "pages/contactus";
+@import "pages/testimonials";

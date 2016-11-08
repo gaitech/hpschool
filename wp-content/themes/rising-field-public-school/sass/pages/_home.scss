@@ -1,0 +1,34 @@
+//--- Home Sectiopn Css Using Sass ---//
+
+.piteminfo {
+	@include mobile(320px,768px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
+}
+.piteminfo {
+	@include tablet(768px,1024px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
+}
+.piteminfo {
+	@include desktop(1024px,1920px) {
+		background-color: $color-bg-caption;
+	}
+	background-color: $color-bg-caption;
+}
+
+.hometitle {
+	color:$color-green;
+}
+
+.siteorigin-widget-tinymce {
+	blockquote {
+		color: $color-green;
+	}
+
+	strong {
+		color: $color-green;
+	}
+}

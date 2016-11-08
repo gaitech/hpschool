@@ -1,0 +1,21 @@
+//--- Header Area Css Using Sass ---//
+
+header {
+	&.banner {
+		&.headerclass {
+			background-color: $color-green;
+		}
+	}
+}
+#nav-main {
+	.sf-menu {
+		a {
+			font-size: $font-menu !important;
+			color: $color-white;
+			&:hover {
+				color: $color-black !important; 
+			}
+		}
+	}
+}
+
