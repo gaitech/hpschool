@@ -1,0 +1,149 @@
+/*---Helper---*/
+/* Helper for responsive */
+/* Mixin for Font Style */
+/*---componant---*/
+/* line 5, ../sass/componant/_header.scss */
+header.banner.headerclass {
+  background-color: #c72c00;
+}
+
+/* line 12, ../sass/componant/_header.scss */
+#nav-main .sf-menu a {
+  font-size: 14px !important;
+  color: #fff;
+}
+/* line 15, ../sass/componant/_header.scss */
+#nav-main .sf-menu a:hover {
+  color: #000 !important;
+}
+
+/* line 3, ../sass/componant/_footer.scss */
+#containerfooter {
+  background: #c72c00;
+}
+/* line 6, ../sass/componant/_footer.scss */
+#containerfooter .container .textwidget {
+  color: #fff;
+  font-style: italic;
+}
+/* line 10, ../sass/componant/_footer.scss */
+#containerfooter .container p {
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+}
+/* line 15, ../sass/componant/_footer.scss */
+#containerfooter .container h3 {
+  color: #fff;
+  font-style: italic;
+}
+/* line 19, ../sass/componant/_footer.scss */
+#containerfooter .container a {
+  color: #fff;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* line 23, ../sass/componant/_footer.scss */
+#containerfooter .container a:hover {
+  color: #2d5c88;
+}
+
+/*---layout---*/
+/* line 2, ../sass/layout/_layout.scss */
+.entry-title {
+  color: #c72c00;
+}
+
+/* line 5, ../sass/layout/_layout.scss */
+.contentclass {
+  background: #fff;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  min-height: 320px;
+}
+
+/* line 11, ../sass/layout/_layout.scss */
+th {
+  padding: 10px;
+}
+/* line 13, ../sass/layout/_layout.scss */
+th span {
+  color: #c72c00;
+}
+
+/*---Pages---*/
+/* line 3, ../sass/pages/_home.scss */
+.piteminfo {
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  /* line 3, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 9, ../sass/pages/_home.scss */
+.piteminfo {
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  /* line 9, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 15, ../sass/pages/_home.scss */
+.piteminfo {
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 1024px) and (max-width: 1920px) {
+  /* line 15, ../sass/pages/_home.scss */
+  .piteminfo {
+    background-color: #f5f5f5;
+  }
+}
+
+/* line 22, ../sass/pages/_home.scss */
+.hometitle {
+  color: #c72c00;
+}
+
+/* line 27, ../sass/pages/_home.scss */
+.siteorigin-widget-tinymce blockquote {
+  color: #c72c00;
+}
+/* line 31, ../sass/pages/_home.scss */
+.siteorigin-widget-tinymce strong {
+  color: #c72c00;
+}
+
+/* line 4, ../sass/pages/_affiliation.scss */
+.school-affiliation .textwidget {
+  color: #c72c00;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 12, ../sass/pages/_affiliation.scss */
+.widget-title {
+  color: #c72c00;
+}
+
+/* line 4, ../sass/pages/_contactus.scss */
+.contactformcase h3 {
+  color: #c72c00;
+}
+
+/* line 8, ../sass/pages/_contactus.scss */
+#submit {
+  background-color: #c72c00;
+}
+
+/* line 4, ../sass/pages/_testimonials.scss */
+.main.col-md-12 {
+  min-height: 200px;
+}
