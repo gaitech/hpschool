@@ -1,0 +1,14 @@
+//--- Affilition Page Css Using Sass ---//
+
+.school-affiliation {
+	.textwidget {
+		color: $color-green;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+.widget-title {
+	color: $color-green;
+}
